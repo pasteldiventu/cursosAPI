@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "fastAPI/fast_alchemy/main.py",
+        "use": "@vercel/python"
+      }
+    ]
+  }
+  
