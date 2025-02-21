@@ -35,6 +35,6 @@ class Gatos(settings.DBBaseModel):
     nome: str = Column(String(50))
     cor: str = Column(String(30))
     idade: int = Column(Integer)
-    detalhes: str = Column(String(255))
+    detalhe: str = Column(String(255))
     id_abrigo: int = Column(Integer)
     
